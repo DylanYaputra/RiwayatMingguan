@@ -9,6 +9,8 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        google ()
+        maven { url = uri("https://realm.io/packages")
     }
 }
 dependencyResolutionManagement {
@@ -27,4 +29,5 @@ dependencyResolutionManagement {
         google()
         maven { url = uri("https://jitpack.io") } // benar untuk .kts
     }
+}
 }
